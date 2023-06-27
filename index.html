@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kecocokan Jodoh</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <h1 class="nav-title">Kecocokan Jodoh</h1>
+        <div class="nav-pic"></div>
+      </nav>
+      <div class="container">
+        <section>
+          <div class="input">
+            <table>
+              <tr>
+                <td>
+                  <strong>Nama Kamu </strong>
+                </td>
+                <td id="input">
+                  <input type="text" id="input1" class="input" autofocus />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Nama Pasangan </strong>
+                </td>
+                <td id="input">
+                  <input type="text" id="input2" class="input" />
+                </td>
+              </tr>
+            </table>
+            <button
+              onclick="scan(document.getElementById('input1').value, document.getElementById('input2').value)"
+              id="b"
+            >
+              Scan!
+            </button>
+          </div>
+
+          <div id="result"></div>
+          <div id="jodoh"></div>
+        </section>
+        <aside>
+          <details id="history">
+            <summary>History</summary>
+            <button id="reset-btn" onclick="reset()">Reset</button>
+            <br />
+            <br />
+          </details>
+        </aside>
+      </div>
+      <footer>
+        <p>Created by Mamen&#x2764;</p>
+      </footer>
+    </main>
+    <script src="recent.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

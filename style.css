@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  margin: auto;
+  width: 100%;
+  display: grid;
+  font-family: "arial", "quotes";
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  float: left;
+}
+
+.container {
+  display: grid;
+  gap: 10px;
+}
+
+section {
+  grid-column: 1;
+  padding: 10px;
+}
+
+aside {
+  grid-column: 1;
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 2px;
+  margin-top: 8px;
+  border-style: none;
+  border-radius: 10px;
+  font-family: Arial !important;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(27, 27, 27);
+  background-color: rgb(231, 177, 204);
+}
+
+div#result {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 60px;
+  color: forestgreen;
+}
+
+summary {
+  user-select: none;
+}
+
+@media screen and (max-width: 1040px) {
+  .container {
+    padding-left: 0px;
+    grid-template-columns: 1fr;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  top: auto;
+}
