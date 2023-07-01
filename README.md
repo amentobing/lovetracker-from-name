@@ -1,5 +1,6 @@
 ﻿# Name Love Tracker
- <a href="https://saweria.co/mamendesu">Saweria</a> | <a href="https://instagram.com/@amentogu">Instagram</a>
+ <a href="https://saweria.co/mamendesu"><img src="https://saweria.co/favicon.ico" alt="Saweria" height="20"></a>
+     <a href="https://instagram.com/@amentogu"><img src="https://static.cdninstagram.com/rsrc.php/yS/r/f_5NUHW7AZC.ico" alt="Instagram" height="20"></a>
 
 
 Website ini hanya digunakan untuk bersenang-senang dengan teman/sahabat kalian.
